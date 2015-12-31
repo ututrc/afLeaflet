@@ -1,0 +1,8 @@
+<template name="afLeaflet">
+  <div data-schema-key="{{schemaKey}}">
+    <input type="text" class="{{this.identifier}}-js-value" value="{{this.value}}" {{this.atts}} style="display: none;">
+    Latitude: <input type="text" class="{{this.identifier}}-js-lat" value="{{this.lat}}">
+    Longitude: <input type="text" class="{{this.identifier}}-js-lng" value="{{this.lng}}">
+    <div id="{{this.identifier}}-map" class="map"></div>
+  </div>
+</template>
